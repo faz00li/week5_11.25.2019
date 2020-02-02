@@ -1,0 +1,30 @@
+
+
+
+			/////WEEK5 GOALS/////
+
+TDD
+
+Webpack
+
+JEST - testing automation
+
+Module BUilding
+
+PROJECT
+-------
+each spec -> committed and breakdown before coding
+tests designed -> before coding
+
+
+npm init -y
+$ npm install webpack@4.39.3 --save-dev --save-exact
+$ npm install webpack-cli@3.3.8 --save-dev
+<npm install PACKAGE-NAME-HERE --save-dev>
+
+./node_modules/.bin/webpack --mode development 
+./node_modules/.bin/webpack-dev-server --open --mode development
+./node_modules/.bin/eslint src/*.js
+
+
+

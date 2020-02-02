@@ -1,0 +1,44 @@
+
+
+
+C# Week 8
+
+
+List<Car> CarsMatchingSearch = new List<Car>(0); //new code
+
+listItem.Add()
+listitem.Remove();
+
+    foreach(Car automobile in Cars)
+    {
+      ... Console.WriteLine(automobile.GetMakeModel());
+    }
+
+
+ Dictionary<string, string> myDictionary = new Dictionary<string, string>() { {"A", "apple"}, {"B", "bear"} };
+
+myDictionary["A"]
+"apple"
+
+> myDictionary["B"]
+"bear"
+
+namespace ExampleNameSpace
+{
+
+  public class ExampleClass
+  {
+    // all ExampleClass methods, fields, and properties here
+  }
+
+}
+
+static methods are perfomed by class not instance
+ public static string MakeSound(string sound)
+ {
+    return "Our cars sound like " + sound;
+ }
+
+C# will perform implicit casting when: * Data types are compatible, such as when we are working with two ints; * When data of a smaller type is assigned to a bigger data type, such as when an int is cast as a double.
+
+We should use explicit casting when: * We are working with incompatible data types where automatic conversion cannot be done. We explicitly state the data type to which the value should be converted. However, be careful: explicit casting can potentially result in loss of accuracy.
